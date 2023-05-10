@@ -407,3 +407,314 @@
 ['INFO ]2023-05-08 15:33:45,967(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
 ['ERROR]2023-05-08 15:33:50,775(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
 ['INFO ]2023-05-08 15:34:00,576(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-08 16:12:09,313(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-08 16:12:14,272(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-08 16:12:18,544(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-08 16:12:22,529(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-08 16:12:22,561(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-08 16:12:33,855(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-08 16:12:40,195(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-08 16:12:42,129(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-08 16:12:42,148(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-08 16:12:46,384(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-08 16:12:55,779(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 12:53:57,930(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 12:54:03,138(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:54:08,369(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:54:12,384(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 12:54:12,416(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 12:54:22,807(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 12:54:29,209(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 12:54:31,412(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 12:54:31,433(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 12:54:35,989(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:54:45,341(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 12:59:00,937(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-05-09 12:59:00,965(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 12:59:06,183(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:06,636(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:11,485(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:59:15,626(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 12:59:15,660(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 12:59:20,801(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:24,740(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:26,095(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:59:26,423(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 12:59:26,432(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:59:26,435(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Valid Python code
+['ERROR]2023-05-09 12:59:26,661(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:26,794(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:59:26,895(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 12:59:26,925(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:27,102(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:27,580(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:33,551(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 12:59:33,614(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 12:59:33,806(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 12:59:33,856(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:41,008(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-5]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:41,008(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-6]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 13:00:41,008(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-7]Utilities.Loggerload1)-User is in the Tree Module Page
+['INFO ]2023-05-09 13:00:41,008(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-4]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 13:00:41,008(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-8]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:41,008(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:41,017(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-4]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:41,031(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-7]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:41,486(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:00:42,486(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-3]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 13:00:43,508(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-0]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 13:00:48,208(yyyy-MM-ddHH:mm:ss.SSS][TestNG-PoolService-0]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 13:01:26,040(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 13:01:31,424(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 13:01:36,529(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 13:01:40,623(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 13:01:40,655(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 13:01:51,277(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 13:01:57,808(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 13:01:59,847(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 13:01:59,873(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 13:02:04,579(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 13:02:13,974(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['ERROR]2023-05-09 17:55:15,334(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:55:25,824(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:55:37,283(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:55:38,606(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 17:55:38,653(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 17:55:38,662(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:55:38,713(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:55:38,751(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 17:55:38,777(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 17:55:38,801(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:55:38,853(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 17:58:06,840(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 17:58:11,433(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 17:58:16,710(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 17:58:20,854(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 17:58:20,886(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 17:58:32,292(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 17:58:38,769(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 17:58:40,942(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 17:58:40,975(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 17:58:45,325(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 17:58:54,726(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:24:22,430(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-05-09 18:24:23,016(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:24:27,275(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:27,619(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:32,037(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:33,143(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:24:33,190(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:24:33,207(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:33,248(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:33,304(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:24:33,336(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:24:33,362(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:33,408(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:34,247(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:37,639(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:38,765(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:24:38,804(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:24:38,821(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:38,861(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:38,958(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:24:38,987(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:24:39,009(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:24:39,056(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:25:54,331(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-05-09 18:25:54,360(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:25:58,955(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:25:59,195(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:01,857(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:01,965(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:03,080(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:26:03,136(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:26:03,167(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:03,281(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:03,329(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:03,378(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:26:03,421(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:26:03,468(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:03,508(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:04,519(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:26:07,566(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:26:07,582(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:07,644(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:07,707(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:26:07,753(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:26:07,785(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:26:07,852(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:31:47,708(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:31:52,485(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:31:56,216(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:31:56,358(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:31:57,502(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:31:57,546(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:31:57,570(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:31:57,609(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:31:57,639(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:31:57,669(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:31:57,696(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:31:57,731(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:32:04,911(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:32:08,411(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:11,521(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:11,607(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:12,734(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:32:12,774(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:32:12,783(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:12,856(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:12,893(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:32:12,932(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:32:12,946(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:12,999(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:32:38,601(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:32:42,779(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:32:48,117(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:32:52,094(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 18:32:52,135(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 18:33:03,562(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:33:09,917(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:33:12,224(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 18:33:12,246(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:33:17,084(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:33:26,538(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:33:35,118(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:33:38,359(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:33:38,416(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:33:38,489(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:33:39,567(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:33:39,596(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:33:39,614(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:33:39,729(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:33:39,826(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:33:39,862(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:33:39,929(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:33:40,067(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:36:03,194(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:36:07,877(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:36:13,198(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:36:17,303(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 18:36:17,340(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 18:36:28,221(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:36:34,631(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:36:36,873(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 18:36:36,889(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:36:41,298(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:36:50,772(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 18:36:59,862(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 18:37:02,725(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:37:02,775(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:37:02,872(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:37:04,012(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:37:04,034(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 18:37:04,048(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:37:04,087(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:37:04,196(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 18:37:04,229(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 18:37:04,291(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 18:37:04,338(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:10:08,483(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-05-09 19:10:08,738(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 19:10:12,500(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:13,012(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:13,643(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:13,663(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:15,145(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:15,260(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,231(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:10:16,292(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 19:10:16,312(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,357(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,395(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,402(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:10:16,435(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the Tree Module Page
+['INFO ]2023-05-09 19:10:16,473(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 19:10:16,516(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,548(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,598(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:16,656(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:21,048(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:10:21,090(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 19:10:21,135(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:10:21,197(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:13:44,815(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Website Opened
+['INFO ]2023-05-09 19:13:44,932(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 19:13:50,252(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:50,252(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:50,409(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:50,438(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:50,621(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:50,647(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,755(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,780(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:13:51,817(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 19:13:51,817(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 19:13:51,830(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,830(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,867(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,872(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,921(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:51,939(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:13:51,988(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['INFO ]2023-05-09 19:13:52,004(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 19:13:52,031(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:52,036(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:52,125(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:13:52,145(yyyy-MM-ddHH:mm:ss.SSS][TestNG-tests-2]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:14:18,237(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 19:14:26,470(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:32,235(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:14:36,587(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 19:14:36,643(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 19:14:37,719(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:37,800(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:37,836(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:14:37,854(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 19:14:37,893(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:37,921(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:14:44,613(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 19:14:49,204(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:49,285(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:49,387(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:50,503(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:14:50,545(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 19:14:50,560(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:50,587(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:50,630(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:14:50,655(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 19:14:50,676(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:14:50,723(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:17:56,112(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 19:18:03,351(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 19:18:08,693(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:18:13,621(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 19:18:13,665(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 19:18:24,285(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 19:18:30,315(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 19:18:33,278(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 19:18:33,285(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 19:18:39,977(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 19:18:49,752(yyyy-MM-ddHH:mm:ss.SSS][main]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 23:29:03,681(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 23:29:11,933(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:29:18,717(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 23:29:22,713(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-U are in the Home Page
+['INFO ]2023-05-09 23:29:22,770(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User is in the home page
+['INFO ]2023-05-09 23:29:35,232(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 23:29:42,714(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 23:29:46,116(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User Landed on the Tree Page
+['INFO ]2023-05-09 23:29:46,134(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 23:29:51,724(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 23:30:02,445(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Chrome-1]Utilities.Loggerload1)-Valid Python code
+['INFO ]2023-05-09 23:30:12,854(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Website Opened
+['ERROR]2023-05-09 23:30:19,291(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:30:32,794(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:30:43,525(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:30:56,017(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 23:30:56,288(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-User is in the home page
+['ERROR]2023-05-09 23:31:05,232(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:31:05,312(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:31:05,368(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['INFO ]2023-05-09 23:31:05,425(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-User is in the Tree Module Page
+['ERROR]2023-05-09 23:31:05,433(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot
+['ERROR]2023-05-09 23:31:05,528(yyyy-MM-ddHH:mm:ss.SSS][TestNG-test=Test-Edge-1]Utilities.Loggerload1)-Steps Failed , Taking Screenshot

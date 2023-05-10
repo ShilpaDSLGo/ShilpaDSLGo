@@ -9,7 +9,7 @@ import java.util.Properties;
 import org.apache.commons.lang3.RandomStringUtils;
 	
 	public class ConfigReader {
-		
+		private static String browserType = null;
 	//This method is used to load the properties from the config file
 	public static Properties init_prop() throws IOException
 	{	
@@ -22,7 +22,17 @@ import org.apache.commons.lang3.RandomStringUtils;
 		
 		return prop;
 	}
-	
+	public static void setBrowserType(String browser)
+	{
+		browserType = browser;
+	}
+	public static String getBrowserType() 
+	{	
+		
+			return browserType;
+		
+			
+	}
 	public static String getURL() throws IOException
 	{
 		return init_prop().getProperty("url");

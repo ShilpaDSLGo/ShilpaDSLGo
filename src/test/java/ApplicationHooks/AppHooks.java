@@ -21,6 +21,7 @@ import Utilities.ConfigReader;
 import Utilities.Loggerload;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
 import io.qameta.allure.Allure;
 
@@ -32,15 +33,16 @@ public static WebDriver driver;
 
 public static ConfigReader configReader;
 	public static Properties prop;
-	@Before ("@first")
+	@BeforeAll (order=0)
 	public static void getProperty() throws IOException
 	{
 		configReader = new ConfigReader();
 		prop = configReader.init_prop();
 	}
-	@Before ("@first")
+	@BeforeAll (order=1)
 	public static void launchBrowser() throws InvalidFormatException, IOException
 	{
+		//String browserName = ConfigReader.getBrowserType();
 		String browserName = prop.getProperty("browser");
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver(browserName);

@@ -1,13 +1,13 @@
 @tag
 Feature: Register new Account
-@first
+
 Scenario Outline: Creating new user account
 Given user is in the dsalgo url page
 When user enters invalid data from "<sheetName>" and <rowNumber> in excelpath
 Then user prints the error message
 Examples:
 | sheetName | rowNumber |
-| Register | 2 |
+| Register | 2          |
 Scenario Outline: Creating new user account
 Given user is in the dsalgo register page
 When user enters valid data from "<sheetName>" and <rowNumber> excelpath
