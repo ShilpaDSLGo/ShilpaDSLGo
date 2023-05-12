@@ -1,8 +1,8 @@
 package Steps_DsAlgo;
 
 
-import static Utilities.ConfigReader.getExpText2;
-import static Utilities.ConfigReader.getExpText3;
+
+
 import java.io.IOException;
 import java.util.List;
 import org.openqa.selenium.Alert;

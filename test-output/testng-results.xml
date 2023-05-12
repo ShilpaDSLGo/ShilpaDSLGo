@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+<testng-results ignored="0" total="15" passed="10" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-09T19:17:51 EDT" name="Default suite" finished-at="2023-05-09T19:18:52 EDT" duration-ms="60959">
+  <suite started-at="2023-05-12T00:27:04 EDT" name="Default suite" finished-at="2023-05-12T00:28:34 EDT" duration-ms="89825">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-09T19:17:51 EDT" name="Default test" finished-at="2023-05-09T19:18:52 EDT" duration-ms="60959">
+    <test started-at="2023-05-12T00:27:04 EDT" name="Default test" finished-at="2023-05-12T00:28:34 EDT" duration-ms="89825">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:17:51 EDT" name="setUpClass" finished-at="2023-05-09T19:17:54 EDT" duration-ms="2978" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:04 EDT" name="setUpClass" finished-at="2023-05-12T00:27:07 EDT" duration-ms="3065" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@18d09283]]>
+                <![CDATA[org.testng.TestRunner@471d6571]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:17:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:03 EDT" duration-ms="9383" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:15 EDT" duration-ms="7571" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:54)
+at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
 at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
 ]]>
             </full-stacktrace>
@@ -54,7 +54,7 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:07 EDT" duration-ms="4033" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:19 EDT" duration-ms="3887" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@ at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:08 EDT" duration-ms="1313" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:20 EDT" duration-ms="1366" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.LoginSteps.user_stays_on_the_login_page(LoginSteps.java:110)
+at Steps_DsAlgo.LoginSteps.user_stays_on_the_login_page(LoginSteps.java:111)
 at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject/src/test/resources/FeaturesDsAlgo/ALogin.feature:22)
 ]]>
             </full-stacktrace>
@@ -103,7 +103,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:08 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:13 EDT" duration-ms="4627" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:24 EDT" duration-ms="4100" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:24 EDT" duration-ms="10652" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:37 EDT" duration-ms="12651" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,7 +135,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:30 EDT" duration-ms="6021" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:44 EDT" duration-ms="6722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:33 EDT" duration-ms="2961" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:46 EDT" duration-ms="2071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@ at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:40 EDT" duration-ms="6905" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:27:51 EDT" duration-ms="5329" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -192,7 +192,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:87)
+at Steps_DsAlgo.TreeSteps.user_checks_for_the_error_message(TreeSteps.java:84)
 at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject/src/test/resources/FeaturesDsAlgo/CTree.feature:13)
 ]]>
             </full-stacktrace>
@@ -200,7 +200,7 @@ at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspac
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-09T19:18:49 EDT" duration-ms="9570" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:27:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:01 EDT" duration-ms="10128" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,7 +216,137 @@ at ✽.user checks for the error message(file:///C:/Users/shaun/eclipse-workspac
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-09T19:18:49 EDT" name="tearDownClass" finished-at="2023-05-09T19:18:52 EDT" duration-ms="2360" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:01 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:02 EDT" duration-ms="728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Selecting the Graph Module from the dropdown list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be able to run Graph Module features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:02 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:07 EDT" duration-ms="5077" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Graph Module with invalid syntax in editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be able to run Graph Module features"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome to Graph] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome to Graph] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Steps_DsAlgo.GraphSteps.user_should_have_error_message(GraphSteps.java:133)
+at ✽.user should have error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject/src/test/resources/FeaturesDsAlgo/Graph.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:13 EDT" duration-ms="6235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Graph Module with valid syntax in editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be able to run Graph Module features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:14 EDT" duration-ms="724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Selecting the Queue Module from the dropdown list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be able to run Queue Module features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:21 EDT" duration-ms="7250" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Queue Module with invalid syntax in editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be able to run Queue Module features"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome to Queue] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome to Queue] but found []
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:134)
+at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-12T00:28:29 EDT" duration-ms="7942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Queue Module with valid syntax in editor box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User should be able to run Queue Module features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@60db1c0e]" started-at="2023-05-12T00:28:29 EDT" name="tearDownClass" finished-at="2023-05-12T00:28:34 EDT" duration-ms="4788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

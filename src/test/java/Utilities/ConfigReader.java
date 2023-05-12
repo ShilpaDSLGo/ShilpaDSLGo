@@ -33,6 +33,18 @@ import org.apache.commons.lang3.RandomStringUtils;
 		
 			
 	}
+	public static String getExpectedText2() throws IOException
+	{
+		return init_prop().getProperty("expectedText2");
+	}
+	public static String getExpectedText3() throws IOException
+	{
+		return init_prop().getProperty("expectedText3");
+	}
+	public static String getGraphUrl() throws IOException
+	{
+		return init_prop().getProperty("expectedGraphUrl");
+	}
 	public static String getURL() throws IOException
 	{
 		return init_prop().getProperty("url");
@@ -53,6 +65,10 @@ import org.apache.commons.lang3.RandomStringUtils;
    {
 	   return init_prop().getProperty("expectedTreeURL");
    }
+   public static String getQueueUrl() throws IOException
+   {
+	   return init_prop().getProperty("expectedQueueUrl");
+   }
    public static String getExpText() throws IOException
    {
 	   return init_prop().getProperty("expectedText");
@@ -61,13 +77,14 @@ import org.apache.commons.lang3.RandomStringUtils;
    {
 	   return init_prop().getProperty("expectedText1");
    }
-   public static String getExpText2() throws IOException
+   public static String getExpText4() throws IOException
    {
-	   return init_prop().getProperty("expectedText2");
+	   return init_prop().getProperty("expectedText4");
    }
-   public static String getExpText3() throws IOException
+   public static String getExpText5() throws IOException
    {
-	   return init_prop().getProperty("expectedText3");
+	   return init_prop().getProperty("expectedText5");
    }
+   
   
 }
