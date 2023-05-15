@@ -10,6 +10,15 @@
     <artifactId>cucumber-java</artifactId>
     <version>7.11.2</version>
 </dependency>
+
+ <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.22.0</version>
+</dependency>
+
+
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 <dependency>
     <groupId>io.cucumber</groupId>
@@ -54,6 +63,7 @@
     <artifactId>poi</artifactId>
     <version>5.2.3</version>
 </dependency>
+
 <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
     <groupId>org.apache.poi</groupId>

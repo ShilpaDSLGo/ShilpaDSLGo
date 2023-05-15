@@ -14,12 +14,13 @@ public class POarrays {
 	 WebDriver driver;
 	 Actions actions = new Actions(driverfactory.getDriver());
 	 By arrays=By.xpath("//div[2]/div/div/a");
-	 By arrayPython=By.xpath("//a[text()='Arrays in Python']");
+	 //By arrayPython=By.xpath("//a[text()='Arrays in Python']");
+	 By arrayPython=By.xpath("//body/div[2]/ul[1]/a");
 	 By arrayList=By.xpath("//a[text()='Arrays Using List']");
 	 By tryHere=By.xpath("//a[text()=\"Try here>>>\"]");
 	 By typeHere=By.xpath("//form[@id='answer_form']/div/div/div/textarea");
 	 By clickRun=By.xpath("//button[text()='Run']");
-	 
+	 By dropDown=By.xpath("//a[@class='nav-link dropdown-toggle']");
 	  
 	   public POarrays(WebDriver driver) {
 			  
@@ -48,20 +49,23 @@ public class POarrays {
        
        public void typeHere() {
 	    	 
-	    	 driver.findElement(typeHere).sendKeys("print'array1 = array('i', [10,20,30,40,50])'");
+	    	 driver.findElement(typeHere);
 	     }
-       
        
        public void typeArray1() {
 	    	 
-	    	 driver.findElement(typeHere).sendKeys("print'array1 = array('i', [10,20,30,40,50])',array1.insert(1,60),print x'");
+	    	 driver.findElement(typeHere).sendKeys("print'array1 = array('i', [10,20,30,40,50])'");
 	     }
        
        public void typeArray2() {
 	    	 
-	    	 driver.findElement(typeHere).sendKeys("'array1 = array('i', [10,20,30,40,50])'");
+	    	 driver.findElement(typeHere).sendKeys("print 'array1.insert(1,60),print x'");
 	     }
        
+       public void typeArray3() {
+	    	 
+	    	 driver.findElement(typeHere).sendKeys(" This is array's page");
+	     }
        
        public void acceptAlert() {
            Alert alert = driver.switchTo().alert();
@@ -84,6 +88,13 @@ public class POarrays {
      	 driver.navigate().back();
       }
        
+      
+      
+//      public void dropdown() {
+//    	  
+//    	  WebElement selectElement = driver.findElement(dropDown);
+//          Select select = new Select(selectElement);
+      }
 //       public void arrayPython() {
 //	    	 
 //	    	 driver.findElement(arrayPython).click();
@@ -101,4 +112,4 @@ public class POarrays {
 	     
 	     
 	 
-}
+

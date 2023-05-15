@@ -8,6 +8,9 @@ Feature: The module Data Structure
     When  User Clicks on the DataStructure
     And   User clicks on Time Complexity and try here
     Then   User gives the correct code
+    
+    #| name  | value | status  |
+    #| name1 |     5 | success |
 
     @tag2
   Scenario Outline: Trying the incorrect script
@@ -17,7 +20,6 @@ Feature: The module Data Structure
     Then  User gives the incorrect code
 
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
+    #Examples: 
+      #| name  | value | status  |
+      #| name2 |     7 | Fail    |

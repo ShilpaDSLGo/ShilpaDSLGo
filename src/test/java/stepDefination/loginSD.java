@@ -23,6 +23,7 @@ import utilities.exceldemo;
 	private POloginclass loginpage= new POloginclass(driverfactory.getDriver());
 	//WebDriver driver= new ChromeDriver();
 	//private POloginclass loginpage= new POloginclass(driver); 
+	
 	@Given("The dsportal browser is open")
 	public void the_dsportal_browser_is_open() {
 		driverfactory.getDriver().get("https://dsportalapp.herokuapp.com/");
@@ -50,11 +51,15 @@ import utilities.exceldemo;
 	//Scenario one 
 	
 	@Given("User is on the register page")
-	public void user_is_on_register_page() throws Exception {
-		loginpage.getStarted();
+	public void user_is_on_register_page() {
+		//loginpage.getStarted();
 		loginpage.clickRegister();
-	   
+	   System.out.println("The used is on registration file ");
 	}
+	
+	
+	
+	
 	@When("User clicks on Login button with entering invalid Username {string} and Password {int}")
 	public void user_clicks_on_login_button_with_entering_invalid_username_sheet_name_and_password_rownumber(String Sheetname ,Integer Rownumber) throws InterruptedException {
 	

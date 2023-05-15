@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 10 10:52:58 EDT 2023</td>
+<td>Started on:</td><td>Mon May 15 11:09:56 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9980 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29422 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -74,64 +74,6 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
-<tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;answer_form&apos;]/div/div/div/textarea&quot;}
-  (Session info: chrome=113.0.5672.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41917ca7ba100566d720a89ffe1f1659, findElement {using=xpath, value=//form[@id=&apos;answer_form&apos;]/div/div/div/textarea}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51874/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41917ca7ba100566d720a89ffe1f1659
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pageobject.POarrays.typeArray2(POarrays.java:62)
-	at stepDefination.ArraysSD.the_user_clicks_link_button(ArraysSD.java:44)
-	at ✽.The user clicks &quot;Arrays in Python&quot; link button.(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/C_Arrays.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2084706642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2084706642'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;answer_form&apos;]/div/div/div/textarea&quot;}
-  (Session info: chrome=113.0.5672.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41917ca7ba100566d720a89ffe1f1659, findElement {using=xpath, value=//form[@id=&apos;answer_form&apos;]/div/div/div/textarea}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51874/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41917ca7ba100566d720a89ffe1f1659
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pageobject.POarrays.typeArray2(POarrays.java:62)
-	at stepDefination.ArraysSD.the_user_clicks_link_button(ArraysSD.java:44)
-	at ✽.The user clicks &quot;Arrays in Python&quot; link button.(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/C_Arrays.feature:14)
-</pre></div></td>
-<td>0</td>
-<td>runner.testrunner@130d63be</td></tr>
 <tr>
 <td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Login process for User with incorrect credentials", "dsLgo project login"</td>
 <td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User is on register page&apos; is undefined.
@@ -177,8 +119,8 @@ public void user_is_on_register_page() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1751080205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1751080205'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User is on register page&apos; is undefined.
+</pre></div><a href='#' onClick='toggleBox("stack-trace994084545", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace994084545'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User is on register page&apos; is undefined.
 You can implement this step using the snippet(s) below:
 
 @Given(&quot;User is on register page&quot;)
@@ -223,7 +165,65 @@ public void user_is_on_register_page() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>runner.testrunner@4d15107f</td></tr>
+<tr>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User wants to learn and explore Stack", "User is learning Stack Data Structure"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Operations in Stack&apos;]&quot;}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//a[text()=&apos;Operations in Stack&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pageobject.POMStack.clickOperationsInStack(POMStack.java:34)
+	at stepDefination.StacksSteps.user_clicks_on_operations_in_stack(StacksSteps.java:25)
+	at ✽.User clicks on Operations in Stack(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/E_stacks.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace101149798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace101149798'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Operations in Stack&apos;]&quot;}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//a[text()=&apos;Operations in Stack&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pageobject.POMStack.clickOperationsInStack(POMStack.java:34)
+	at stepDefination.StacksSteps.user_clicks_on_operations_in_stack(StacksSteps.java:25)
+	at ✽.User clicks on Operations in Stack(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/E_stacks.feature:9)
+</pre></div></td>
+<td>0</td>
+<td>runner.testrunner@4d15107f</td></tr>
 <tr>
 <td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is trying register with correct credentials", "dsLgo project login"</td>
 <td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/login] but found [https://dsportalapp.herokuapp.com/home]
@@ -233,32 +233,32 @@ public void user_is_on_register_page() {
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at stepDefination.loginSD.user_should_land_on_home_page(loginSD.java:107)
+	at stepDefination.loginSD.user_should_land_on_home_page(loginSD.java:112)
 	at ✽.User should land on home page(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/A_LogoinDS.feature:25)
-</pre></div><a href='#' onClick='toggleBox("stack-trace540501426", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace540501426'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/login] but found [https://dsportalapp.herokuapp.com/home]
+</pre></div><a href='#' onClick='toggleBox("stack-trace348026124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace348026124'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/login] but found [https://dsportalapp.herokuapp.com/home]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at stepDefination.loginSD.user_should_land_on_home_page(loginSD.java:107)
+	at stepDefination.loginSD.user_should_land_on_home_page(loginSD.java:112)
 	at ✽.User should land on home page(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/A_LogoinDS.feature:25)
 </pre></div></td>
 <td>1</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>runner.testrunner@4d15107f</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Arrays"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Arrays in Python&apos;]&quot;}
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "User is learning Stack Data Structure"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//a[@class=&apos;btn btn-info&apos;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41917ca7ba100566d720a89ffe1f1659, findElement {using=xpath, value=//a[text()=&apos;Arrays in Python&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51874/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41917ca7ba100566d720a89ffe1f1659
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//div//a[@class=&apos;btn btn-info&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -273,19 +273,19 @@ Session ID: 41917ca7ba100566d720a89ffe1f1659
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pageobject.POarrays.arrayPython(POarrays.java:37)
-	at stepDefination.ArraysSD.the_user_clicks_button(ArraysSD.java:19)
-	at ✽.The user clicks &quot;Arrays in Python&quot; button.(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/C_Arrays.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace939665240", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace939665240'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Arrays in Python&apos;]&quot;}
+	at pageobject.POMStack.clickTryHere(POMStack.java:40)
+	at stepDefination.StacksSteps.user_clicks_on_try_here_and_writes_in_valid_code(StacksSteps.java:66)
+	at ✽.User clicks on Try Here and writes in-valid code(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/E_stacks.feature:29)
+</pre></div><a href='#' onClick='toggleBox("stack-trace118105337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace118105337'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//a[@class=&apos;btn btn-info&apos;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41917ca7ba100566d720a89ffe1f1659, findElement {using=xpath, value=//a[text()=&apos;Arrays in Python&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51874/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41917ca7ba100566d720a89ffe1f1659
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//div//a[@class=&apos;btn btn-info&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -300,23 +300,23 @@ Session ID: 41917ca7ba100566d720a89ffe1f1659
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pageobject.POarrays.arrayPython(POarrays.java:37)
-	at stepDefination.ArraysSD.the_user_clicks_button(ArraysSD.java:19)
-	at ✽.The user clicks &quot;Arrays in Python&quot; button.(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/C_Arrays.feature:8)
+	at pageobject.POMStack.clickTryHere(POMStack.java:40)
+	at stepDefination.StacksSteps.user_clicks_on_try_here_and_writes_in_valid_code(StacksSteps.java:66)
+	at ✽.User clicks on Try Here and writes in-valid code(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/E_stacks.feature:29)
 </pre></div></td>
-<td>0</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>1</td>
+<td>runner.testrunner@4d15107f</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;answer_form&apos;]/div/div/div/textarea&quot;}
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid code in linked list.", "LinkedList acessed by user"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41917ca7ba100566d720a89ffe1f1659, findElement {using=xpath, value=//form[@id=&apos;answer_form&apos;]/div/div/div/textarea}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51874/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41917ca7ba100566d720a89ffe1f1659
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -331,19 +331,19 @@ Session ID: 41917ca7ba100566d720a89ffe1f1659
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pageobject.POdataStructure.clearCode(POdataStructure.java:45)
-	at stepDefination.dataStructureSD.the_user_is_on_Home_page(dataStructureSD.java:66)
-	at ✽.The user is on Home page link(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/B_dataStructures.feature:14)
-</pre></div><a href='#' onClick='toggleBox("stack-trace744983675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace744983675'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//form[@id=&apos;answer_form&apos;]/div/div/div/textarea&quot;}
+	at pageobject.POMLinkedList.clickTryHere(POMLinkedList.java:79)
+	at stepDefination.LinkedlistSD.user_clicks_on_in_try_here_and_writes_valid_code_in_python(LinkedlistSD.java:74)
+	at ✽.User clicks on in Try Here and writes valid code in python(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/D_linked%20list.feature:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1073259437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1073259437'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]&quot;}
   (Session info: chrome=113.0.5672.93)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [41917ca7ba100566d720a89ffe1f1659, findElement {using=xpath, value=//form[@id=&apos;answer_form&apos;]/div/div/div/textarea}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51874}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51874/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 41917ca7ba100566d720a89ffe1f1659
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -358,12 +358,70 @@ Session ID: 41917ca7ba100566d720a89ffe1f1659
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at pageobject.POdataStructure.clearCode(POdataStructure.java:45)
-	at stepDefination.dataStructureSD.the_user_is_on_Home_page(dataStructureSD.java:66)
-	at ✽.The user is on Home page link(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/B_dataStructures.feature:14)
+	at pageobject.POMLinkedList.clickTryHere(POMLinkedList.java:79)
+	at stepDefination.LinkedlistSD.user_clicks_on_in_try_here_and_writes_valid_code_in_python(LinkedlistSD.java:74)
+	at ✽.User clicks on in Try Here and writes valid code in python(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/D_linked%20list.feature:20)
 </pre></div></td>
-<td>0</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>2</td>
+<td>runner.testrunner@4d15107f</td></tr>
+<tr>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "User is learning Stack Data Structure"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//a[@class=&apos;btn btn-info&apos;]&quot;}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//div//a[@class=&apos;btn btn-info&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pageobject.POMStack.clickTryHere(POMStack.java:40)
+	at stepDefination.StacksSteps.user_scrolls_down_on_try_here_and_writes_valid_code_in_python(StacksSteps.java:43)
+	at ✽.User scrolls down on Try Here and writes valid code in python(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/E_stacks.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace231870140", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace231870140'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div//a[@class=&apos;btn btn-info&apos;]&quot;}
+  (Session info: chrome=113.0.5672.93)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.2&apos;, revision: &apos;826dbfc730&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dc852bcf901bc478cc9d46885990521, findElement {using=xpath, value=//div//a[@class=&apos;btn btn-info&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shilp\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55078}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55078/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dc852bcf901bc478cc9d46885990521
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pageobject.POMStack.clickTryHere(POMStack.java:40)
+	at stepDefination.StacksSteps.user_scrolls_down_on_try_here_and_writes_valid_code_in_python(StacksSteps.java:43)
+	at ✽.User scrolls down on Try Here and writes valid code in python(file:///C:/Users/shilp/eclipse-workspace/DslgoSnam/src/test/resources/dslgofeatures/E_stacks.feature:19)
+</pre></div></td>
+<td>1</td>
+<td>runner.testrunner@4d15107f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -373,25 +431,40 @@ Session ID: 41917ca7ba100566d720a89ffe1f1659
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
-<td></td>
-<td>0</td>
-<td>runner.testrunner@130d63be</td></tr>
-<tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registring in dsportal app portal", "dsLgo project login"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Arrays"</td>
 <td></td>
 <td>4</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>runner.testrunner@4d15107f</td></tr>
 <tr>
-<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid code in linked list.", "LinkedList acessed by user"</td>
 <td></td>
-<td>0</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>3</td>
+<td>runner.testrunner@4d15107f</td></tr>
 <tr>
 <td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the correct script", "The module Data Structure"</td>
 <td></td>
+<td>2</td>
+<td>runner.testrunner@4d15107f</td></tr>
+<tr>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is learning LinkedList by navigating through all below links", "LinkedList acessed by user"</td>
+<td></td>
 <td>1</td>
-<td>runner.testrunner@130d63be</td></tr>
+<td>runner.testrunner@4d15107f</td></tr>
+<tr>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Data Structure"</td>
+<td></td>
+<td>1</td>
+<td>runner.testrunner@4d15107f</td></tr>
+<tr>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registring in dsportal app portal", "dsLgo project login"</td>
+<td></td>
+<td>5</td>
+<td>runner.testrunner@4d15107f</td></tr>
+<tr>
+<td title='runner.testrunner.runScenario()'><b>runScenario</b><br>Test class: runner.testrunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Trying the incorrect script", "The module Arrays"</td>
+<td></td>
+<td>4</td>
+<td>runner.testrunner@4d15107f</td></tr>
 </table><p>
 </body>
 </html>
