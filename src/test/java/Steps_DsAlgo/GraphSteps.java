@@ -100,9 +100,9 @@ System.out.println("user scroll to select the option from graph module page");
 
 @And("user enters the invalid python code with {string} and {int} in grapheditor box")
 
-public void user_enters_the_invalid_python_code_in_grapheditor_box(String sheetName,int rowNumber) throws InterruptedException {
+public void user_enters_the_invalid_python_code_in_grapheditor_box(String sheetName,Integer rowNumber) throws InterruptedException {
 
-ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
+ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
 Thread.sleep(1000);
 
@@ -160,9 +160,9 @@ System.out.println("user scroll to select the option from graph module page");
 
 @And("user enters the valid python code in {string} and {int} grapheditor box")
 
-public void user_enters_the_valid_python_code_in_grapheditor_box(String sheetName, int rowNumber) throws InterruptedException {
+public void user_enters_the_valid_python_code_in_grapheditor_box(String sheetName, Integer rowNumber) throws InterruptedException {
 
-ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
+ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
 Thread.sleep(2000);
 

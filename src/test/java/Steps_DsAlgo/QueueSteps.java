@@ -2,6 +2,7 @@ package Steps_DsAlgo;
 
 import java.io.IOException;
 
+
 import java.util.List;
 
 import org.openqa.selenium.Alert;
@@ -97,16 +98,16 @@ System.out.println("user scroll to select the option from queue module page");
 
 }
 
-@And("user enters the invalid python code in {string} and {int} the editor box")
+@When("user enters the invalid python code in {string} and {int} the editor box")
 
-public void user_enters_the_invalid_python_code_in_the_editor_box(String sheetName,int rowNumber) throws InterruptedException {
+public void user_enters_the_invalid_python_code_in_the_editor_box(String sheetName,Integer rowNumber) throws InterruptedException {
 
-ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
+ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
 Thread.sleep(2000);
 
 List<String> content=reader.getCellData(sheetName,0,rowNumber);
-
+Thread.sleep(1000);
 queue.Editor(content);
 
 Thread.sleep(2000);
@@ -151,9 +152,9 @@ public void user_go_back_to_the_queue_module_page() throws InterruptedException 
 
 @When("user enters the valid python code in {string} and {int} editor box")
 
-public void user_enters_the_valid_python_code_in_editor_box(String sheetName1,int rowNumber1) throws InterruptedException {
+public void user_enters_the_valid_python_code_in_editor_box(String sheetName1,Integer rowNumber1) throws InterruptedException {
 
-ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
+ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
 Thread.sleep(2000);
 

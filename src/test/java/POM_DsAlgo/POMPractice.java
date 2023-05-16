@@ -67,7 +67,7 @@ public class POMPractice {
 			
 			for(String contents : content) {
 				act.click(driver.findElement(Box)).keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.BACK_SPACE).build().perform();
-			act.moveToElement(driver.findElement(Box)).sendKeys(contents).build().perform();;
+			act.moveToElement(driver.findElement(Box)).sendKeys(contents).build().perform();
 			}
 		}
 		public void Click_Run()
