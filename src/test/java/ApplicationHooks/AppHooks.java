@@ -20,6 +20,7 @@ import Driver.DriverFactory;
 import Utilities.ConfigReader;
 import Utilities.Loggerload;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.Scenario;
@@ -50,11 +51,11 @@ public static ConfigReader configReader;
 				}
 	
 	
-	/*@After 
+	@AfterAll 
 	public static void quitBrowser()
 	{
 		driver.quit();
-	}*/
+	}
 	@After 
 	public static void tearDown (Scenario scenario)
 	{
