@@ -21,13 +21,11 @@ import utilities.exceldemo;
  public class loginSD {
 	
 	private POloginclass loginpage= new POloginclass(driverfactory.getDriver());
-	//WebDriver driver= new ChromeDriver();
-	//private POloginclass loginpage= new POloginclass(driver); 
+	
 	
 	@Given("The dsportal browser is open")
 	public void the_dsportal_browser_is_open() {
 		driverfactory.getDriver().get("https://dsportalapp.herokuapp.com/");
-		//loginpage.getURL();
 		LoggerLoad.info("Website Launched");
 		System.out.println("The website was launched");
      }
@@ -42,18 +40,17 @@ import utilities.exceldemo;
 	@Then("User is navigated to the Registering page")
 	public void user_is_navigated_to_the_Registering_page() {
 		loginpage.clickRegister() ;
-		 System.out.println("Clicked on Registered button");
+		System.out.println("Clicked on Registered button");
 		LoggerLoad.info("Clicked on register button ");
 		}
 	
-	
-
 	//Scenario one 
 	
-	@Given("User is on the register page")
+	@Given("User is on register page")
 	public void user_is_on_register_page() {
-		//loginpage.getStarted();
-		loginpage.clickRegister();
+		String expectedUrl="https://dsportalapp.herokuapp.com/register";
+		String actualUrl=driverfactory.getDriver().getCurrentUrl();
+		Assert.assertEquals(expectedUrl,actualUrl);		
 	   System.out.println("The used is on registration file ");
 	}
 	
@@ -77,7 +74,7 @@ import utilities.exceldemo;
 	
 	@Then("User should land on register page")
 	public void user_should_land_on_register_page() {
-		String expectedUrl="https://dsportalapp.herokuapp.com/home";
+		String expectedUrl="https://dsportalapp.herokuapp.com/register";
 		String actualUrl=driverfactory.getDriver().getCurrentUrl();
 		Assert.assertEquals(expectedUrl,actualUrl);
 		LoggerLoad.info("Invalid username and password");

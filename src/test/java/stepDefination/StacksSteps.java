@@ -16,8 +16,8 @@ public class StacksSteps {
 
     @Given("User is logged in and selects Stack from Data Structures")
     public void user_is_logged_in_and_selects_stack_from_data_structures() {
-    stack.goingbackStack();
-
+   // stack.goingbackStack();
+    	//stack.clickStack();
     }
 
      @When("User clicks on Operations in Stack")
@@ -51,7 +51,7 @@ Thread.sleep(1000);
     public void user_checks_for_stack_console() throws InterruptedException {
    System.out.println("user checks output on console");
    Thread.sleep(1000);
-   driverfactory.getDriver().navigate().back();
+   stack.clearCode();
     }
   
    @Given("User is going back to Operations Page")
@@ -63,15 +63,17 @@ Thread.sleep(1000);
 
    @When("User clicks on Try Here and writes in-valid code")
    public void user_clicks_on_try_here_and_writes_in_valid_code() {
-   stack.clickTryHere();
+   //stack.clickTryHere();
    stack.typeIncorrectCode();
-
+   stack.clickRun();
    }
 
    @Then("User accepts pop-up")
    public void user_accepts_pop_up() {
    stack.accpetAlert();
+   stack.clickback();
    System.out.println("user accepted pop-up msg");
+   
    }
 
 }

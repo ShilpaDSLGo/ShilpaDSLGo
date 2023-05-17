@@ -1,5 +1,8 @@
 package stepDefination;
 
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
+
 import driverfactory.driverfactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -48,7 +51,6 @@ public class LinkedlistSD {
 	linkedlist.clickTryHere();
 	linkedlist.typeIncorrectCode();
 	linkedlist.clickRun();
-	
 	System.out.println("user types in-correct code");
 	   
 	}
@@ -61,30 +63,35 @@ public class LinkedlistSD {
 	}
 
 	@Given("User Clears the code")
-	public void user_clears_the_code() throws InterruptedException {
+	public void user_clears_the_code(){
     linkedlist.clearCode();
     System.out.println("user types correct code");
-	Thread.sleep(1000);
+	
 
 	}
 
 	@When("User clicks on in Try Here and writes valid code in python")
 	public void user_clicks_on_in_try_here_and_writes_valid_code_in_python() throws InterruptedException {
 	Thread.sleep(1000);
-	linkedlist.clickTryHere();
+//	Actions a = new Actions(driverfactory.getDriver());
+//	//scroll down a page
+//	a.sendKeys(Keys.PAGE_DOWN).build().perform();
+	linkedlist.clearCode();
 	linkedlist.typeCorrectCode();
 	linkedlist.clickRun();
-	linkedlist.accpetAlert();
+    linkedlist.accpetAlert();
  
 	}
 
 	@Then("User checks for console")
 	public void user_checks_for_console() throws InterruptedException {
-	Thread.sleep(1000);
-	linkedlist.clickBack();	
-	linkedlist.clickBack();	
 	linkedlist.clickBack();
-//	linkedlist.selectOptionByVisibleText("Stack");
+	Actions a = new Actions(driverfactory.getDriver());
+	//scroll down a page
+	a.sendKeys(Keys.PAGE_UP).build().perform();	
+//	Thread.sleep(1000);
+
+	linkedlist.selectstack();
 	LoggerLoad.info("User tries the correct code in Linkedlist");
 
 	}

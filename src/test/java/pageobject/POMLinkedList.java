@@ -34,8 +34,9 @@ import driverfactory.driverfactory;
 	By console = By.xpath("//*[@id=\"output\"]");
 
 	By clickRun=By.xpath("//button[text()='Run']");
+	By Options = By.xpath("//*[@id=\"navbarCollapse\"]/div[1]/div/a");
 	
-	
+	By stack=By.xpath("//a[text()='Stack']");
 	
 	public  POMLinkedList(WebDriver driver) {
 
@@ -54,11 +55,18 @@ import driverfactory.driverfactory;
 //	    WebElement optionElement = driver.findElement(By.xpath(optionXpath));
 //	    optionElement.click();
 //	}
+	
 	public void selectLinkedList() {
 
-	//driver.findElement(dropdown).click();
+		driver.findElement(linkedlist).click();
+	
+	}
+	
+	public void selectstack() {
 
-	driver.findElement(linkedlist).click();
+	driver.findElement(Options).click();
+
+	driver.findElement(stack).click();
 	
 	
 	}

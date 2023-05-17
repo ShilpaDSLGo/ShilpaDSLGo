@@ -1,19 +1,24 @@
 package pageobject;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
+
+import driverfactory.driverfactory;
 
 	
 	
 	public class POMStack {
 
 	WebDriver driver;
+	Actions actions = new Actions(driverfactory.getDriver());
 	By operations = By.xpath("//a[text()='Operations in Stack']");
-	By tryhere = By.xpath("//div//a[@class='btn btn-info']");
+	By tryhere = By.xpath("//a[text()='Try here>>>']");
 	By textbox = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
 	By run = By.xpath("//button[text()='Run']");
-
+	By stack=By.xpath("//a[text()='Stack']");
 
 	public POMStack(WebDriver driver) {
 
@@ -22,6 +27,12 @@ import org.openqa.selenium.support.PageFactory;
 
 	}
 
+	public void clickStack() {
+		
+		driver.findElement(stack).click();;
+	}
+	
+	
 	public void goingbackStack () {
 
 	driver.navigate().back();
@@ -46,6 +57,10 @@ import org.openqa.selenium.support.PageFactory;
 	driver.findElement(run).click();
 	}
 
+	 public void clearCode() {
+		  actions.keyDown(driver.findElement(textbox), Keys.CONTROL).sendKeys("a").keyUp(driver.findElement(textbox), Keys.CONTROL).perform();
+			actions.sendKeys(Keys.DELETE).perform();
+	  }
 
 	    public void accpetAlert () {
 
@@ -54,17 +69,21 @@ import org.openqa.selenium.support.PageFactory;
 
 	public void typeCorrectCode() {
 
-	driver.findElement(textbox).sendKeys("print 'Hello'");
+	driver.findElement(textbox).sendKeys("print 'Hello this is Stacks '");
 	}
 
 
 	    public void typeIncorrectCode() {
 
 	   
-	driver.findElement(textbox).sendKeys("System.out.println(\"Hello\");");
+	driver.findElement(textbox).sendKeys("System.out.println(\"Hello Stacks\");");
 	}
 	   
-	   
+	    public void clickback () {
+
+	    	driver.navigate().back();
+	    	}
+
 	   
 
 	}

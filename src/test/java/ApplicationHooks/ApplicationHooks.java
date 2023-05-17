@@ -41,15 +41,16 @@ public class ApplicationHooks {
 //		driver.quit();
 //	}
 //
-//	@After
-//	public  void tearDown(Scenario scenario) {
-//		if (scenario.isFailed()) {
-//			// take screenshot:
-//			String screenshotName = scenario.getName().replaceAll(" ","_");
-//			final byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//			scenario.attach(sourcePath, "image/png", screenshotName);
-//}
-//		}
+	@After
+	public  void tearDown(Scenario scenario) {
+		if (scenario.isFailed()) {
+			// take screenshot:
+			String screenshotName = scenario.getName().replaceAll(" ","_");
+			final byte[] sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(sourcePath, "image/png", screenshotName);
+			
+}
+		}
 	}
 
 
