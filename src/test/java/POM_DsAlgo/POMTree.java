@@ -18,8 +18,6 @@ public class POMTree {
 	By Options = By.xpath("//a[@class='nav-link dropdown-toggle']");
 	By Tree = By.xpath("//a[text()='Tree']");
 	By Overview = By.xpath("//a[text()='Overview of Trees']");
-		
-		
 	By Try = By.xpath("//a[text()='Try here>>>']");
 	By Box = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
 	By Run = By.xpath("//button[@type='button'][text()='Run']");

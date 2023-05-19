@@ -26,13 +26,7 @@ By Dropdown1 = By.xpath("//a[@class='nav-link dropdown-toggle']");
 
 By GraphModule = By.xpath("//a[text()='Graph']");
 
-//By Clickbtn1 = By.xpath("//html/body/div[2]/div[5]/div/div/a");
-
 By Graph = By.xpath("/html/body/div[2]/ul[2]/a");
-
-
-
-//By accept
 
 By GraphRepresent = (By.xpath("/html/body/div[2]/ul[3]/a"));
 By Try = By.xpath("//a[text()='Try here>>>']");

@@ -21,10 +21,7 @@ import Driver.DriverFactory;
     private WebElement dropdownElement;	
 	WebDriver driver;
 	Actions actions = new Actions(DriverFactory.getDriver());
-	
-	//@FindBy  = (xpath="//a[@class=\"nav-link dropdown-toggle\"]");
-
-	By linkedlist = By.xpath("//a[text()='Linked List']");
+		By linkedlist = By.xpath("//a[text()='Linked List']");
 	By Options = By.xpath("//a[@class='nav-link dropdown-toggle']");
 	By intorduction = By.xpath("//a[text()='Introduction']");
 
@@ -42,20 +39,11 @@ import Driver.DriverFactory;
 
 	this.driver = driver ;
 	this.actions = new Actions(driver);
-//	dropdownElement = driver.findElement(By.id("dropdownElement"));
 
 	PageFactory.initElements(driver, this);
 
 	}
-	
-//
-//	public void selectOptionByVisibleText(String optionText) {
-//		dropdownElement.click();
-//		String optionXpath = String.format("//a[@class=\"nav-link dropdown-toggle\"]", "Stack");
-//	    WebElement optionElement = driver.findElement(By.xpath(optionXpath));
-//	    optionElement.click();
-//	}
-	
+		
 	public void selectLinkedList() {
 
 		driver.findElement(linkedlist).click();

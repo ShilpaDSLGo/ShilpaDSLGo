@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/6/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>22/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 18 23:04:42 EDT 2023</td>
+<td>Started on:</td><td>Fri May 19 16:26:39 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105443 ms)</td>
+<tr><td>Total time:</td><td>100 seconds (100486 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -98,30 +98,6 @@ function toggleAllBoxes() {
 	at ✽.user stays on the login page(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:47)
 </pre></div></td>
 <td>1</td>
-<td>runner.TestRunner@60db1c0e</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
-<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
-	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1837163537", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1837163537'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
-	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
-</pre></div></td>
-<td>5</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Testing the tryEditor Box with invalid syntax in Overview of Trees Option", "Run the tryEditor in Overview of Trees Tree Module"</td>
@@ -172,16 +148,16 @@ function toggleAllBoxes() {
 <td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with valid syntax in editor box", "User should be able to run Queue Module features"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign out&quot;}
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with invalid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]&quot;}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65d5dbfb846f550d52d3323688dd0eab, findElement {using=link text, value=Sign out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60154/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 65d5dbfb846f550d52d3323688dd0eab
+Command: [e3348bfbba72f3fcedee1a1b9fc0a50f, findElement {using=xpath, value=//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -196,19 +172,19 @@ Session ID: 65d5dbfb846f550d52d3323688dd0eab
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at POM_DsAlgo.POMQueue.signOut(POMQueue.java:92)
-	at Steps_DsAlgo.QueueSteps.user_should_get_success_message(QueueSteps.java:183)
-	at ✽.user should get success message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:35)
-</pre></div><a href='#' onClick='toggleBox("stack-trace708090483", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace708090483'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sign out&quot;}
+	at POM_DsAlgo.POMQueue.Try_Here(POMQueue.java:68)
+	at Steps_DsAlgo.QueueSteps.user_scroll_down_to_select_option_from_Queue_list(QueueSteps.java:94)
+	at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2116946826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2116946826'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]&quot;}
   (Session info: chrome=113.0.5672.127)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [65d5dbfb846f550d52d3323688dd0eab, findElement {using=link text, value=Sign out}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60154/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 65d5dbfb846f550d52d3323688dd0eab
+Command: [e3348bfbba72f3fcedee1a1b9fc0a50f, findElement {using=xpath, value=//a[text()=&apos;Try here&gt;&gt;&gt;&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\shaun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e3348bfbba72f3fcedee1a1b9fc0a50f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -223,35 +199,35 @@ Session ID: 65d5dbfb846f550d52d3323688dd0eab
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at POM_DsAlgo.POMQueue.signOut(POMQueue.java:92)
-	at Steps_DsAlgo.QueueSteps.user_should_get_success_message(QueueSteps.java:183)
-	at ✽.user should get success message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:35)
+	at POM_DsAlgo.POMQueue.Try_Here(POMQueue.java:68)
+	at Steps_DsAlgo.QueueSteps.user_scroll_down_to_select_option_from_Queue_list(QueueSteps.java:94)
+	at ✽.user scroll down to select option from Queue list(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:15)
 </pre></div></td>
-<td>14</td>
+<td>11</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with invalid syntax in editor box", "User should be able to run Queue Module features"</td>
-<td><div><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Creating new user account", "Register new Account"</td>
+<td><div><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:135)
-	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1596377995", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1596377995'><pre>java.lang.AssertionError: expected [Welcome to Queue] but found []
+	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
+	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1803977322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1803977322'><pre>java.lang.AssertionError: expected [password_mismatch:The two password fields didn’t match.] but found [U are logged in]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at Steps_DsAlgo.QueueSteps.user_should_get_a_error_message(QueueSteps.java:135)
-	at ✽.user should get a error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/Queue.feature:19)
+	at Steps_DsAlgo.LoginSteps.user_prints_the_error_message(LoginSteps.java:55)
+	at ✽.user prints the error message(file:///C:/Users/shaun/eclipse-workspace/Ds_AlgoProject3/src/test/resources/FeaturesDsAlgo/ALogin.feature:7)
 </pre></div></td>
-<td>6</td>
+<td>5</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -331,6 +307,11 @@ Session ID: 65d5dbfb846f550d52d3323688dd0eab
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User wants to learn and explore Stack", "User is learning Stack Data Structure"</td>
 <td></td>
 <td>0</td>
+<td>runner.TestRunner@60db1c0e</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the Queue Module with valid syntax in editor box", "User should be able to run Queue Module features"</td>
+<td></td>
+<td>4</td>
 <td>runner.TestRunner@60db1c0e</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is trying register with correct credentials", "Register new Account"</td>

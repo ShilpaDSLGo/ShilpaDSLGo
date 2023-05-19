@@ -36,8 +36,8 @@ public class LoginSteps {
 	public void user_enters_invalid_data_from_and_in_excelpath(String sheetName, Integer rowNumber) throws InterruptedException, IOException {
 		ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject\\src\\test\\resources\\excel.xlsx");
 		Thread.sleep(1000);
-		// List<String> username =reader.getCellData(sheetName,0,rowNumber);
-		 List<String> password = reader.getCellData(sheetName,1,rowNumber);
+
+		List<String> password = reader.getCellData(sheetName,1,rowNumber);
 		 List<String> password1 = reader.getCellData(sheetName,2,rowNumber);
 		 Thread.sleep(1000);
 		 loginpage.RegisterUser();

@@ -55,8 +55,6 @@ public class POMLogin {
   		}	
   	 
   		
-  	 //in data driven it becomes for  password1 &2(String Password) & username
-  		
   	 public void setPassword1 (String Password) {
 
   			driver.findElement(password1).sendKeys(Password);	
@@ -117,8 +115,6 @@ public class POMLogin {
  public void RegisterAcc(List<String> password,List<String> password1) throws IOException
  {
 	 
-		//for(String username1:username) {
-	 //driver.findElement(Username).sendKeys(username1);}
 		for(String password2 : password ) {
 	 driver.findElement(Password1).sendKeys(password2);}
 		for (String password3 : password1) {
@@ -155,14 +151,7 @@ public class POMLogin {
 	 for (String password1 : password)
 		 driver.findElement(Password).sendKeys(password1);
  }
-/* public void Account()
- {
-	 
-	 driver.findElement(LoginUsername).sendKeys(username);
-	// for(String username1: username) {
-	 //driver.findElement(Username).sendKeys(username1);}
-	 
- }*/
+
  public void UserInvalid(List<String> usernameInvalid,List<String> passwordInvalid)
  {
 	 for(String InvUser: usernameInvalid) {
