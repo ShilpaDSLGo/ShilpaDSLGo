@@ -99,9 +99,9 @@ public class TreeSteps {   //1
 		Thread.sleep(1000);
 		List<String> content =reader1.getCellData(SheetName,0,RowNumber);
 		 tree.Editor(content);
-		 Thread.sleep(3000);
+		 Thread.sleep(1000);
 		 tree.Click_Run();
-		 Thread.sleep(3000);
+		 Thread.sleep(1000);
 	}
 
 	@Then("user validates the input message in the console")

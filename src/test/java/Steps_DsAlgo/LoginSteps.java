@@ -15,6 +15,7 @@ import POM_DsAlgo.POMLogin;
 import RandomString.UsernameRandom;
 import Utilities.ConfigReader;
 import Utilities.ExcelReader;
+import Utilities.ExcelReader1;
 import Utilities.Loggerload;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -22,8 +23,7 @@ import io.cucumber.java.en.When;
 
 public class LoginSteps {
 	POMLogin loginpage = new POMLogin(DriverFactory.getDriver());
-	
-	
+
 	@Given("user is in the dsalgo url page")
 	public void user_is_in_the_dsalgo_url_page() throws IOException {
 		
@@ -55,10 +55,81 @@ public class LoginSteps {
 		Assert.assertEquals(expectedMessage,actualmessage);
 	}
 
+	@Given("User is on register page")
+	public void user_is_on_register_page() {
+		String expectedUrl="https://dsportalapp.herokuapp.com/register";
+		String actualUrl=DriverFactory.getDriver().getCurrentUrl();
+		Assert.assertEquals(expectedUrl,actualUrl);		
+	   System.out.println("The used is on registration file ");
+	}
+	
+	
+	
+	@When("User clicks on Login button with entering invalid Username {string} and Password {int}")
+	public void user_clicks_on_login_button_with_entering_invalid_username_sheet_name_and_password_rownumber(String Sheetname ,Integer Rownumber) throws InterruptedException {
+	
+	Thread.sleep(1000);	
+	ExcelReader1 excelReader = new ExcelReader1("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel\\LoginDetails.xlsx","Sheet1");
+			
+	String  Username = excelReader.getCellValueU1(1,0);
+	String  Password= excelReader.getCellValueP1(1,1);
+	    loginpage.setUserName(Username);
+		loginpage.setPassword1(Password);
+		loginpage.setPassword2(Password);
+		loginpage.clickRegister();
+		
+}
+	
+	@Then("User should land on register page")
+	public void user_should_land_on_register_page() {
+		String expectedUrl="https://dsportalapp.herokuapp.com/register";
+		String actualUrl=DriverFactory.getDriver().getCurrentUrl();
+		Assert.assertEquals(expectedUrl,actualUrl);
+		Loggerload.info("Invalid username and password");
+	}
+	
+	
+	// Scenario two
+	@Given("User is on the register page second time")
+	public void user_is_on_register_page1() {
+		
+	   System.out.println("User is on the Register page");
+	}
+	
+	@When("clicks on Login button with entering valid Username {string} and Password {int}")
+	public void clicks_on_login_button_with_entering_valid_username_(String Sheetname ,Integer Rownumber) {
+		ExcelReader1 excelReader = 
+				new ExcelReader1("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel\\LoginDetails.xlsx", "Sheet1");
+
+    String Username= excelReader.getCellValueU1(2,0);
+	String Password= excelReader.getCellValueP1(2,1);
+	String Password2=excelReader.getCellValueP1(2,1);
+	        loginpage.setUserName(Username);
+			loginpage.setPassword1(Password);
+			loginpage.setPassword2(Password);
+			loginpage.clickRegister();
+			//loginpage.clickLogin();
+	}
+	
+	@Then("User should land on home page")
+	public void user_should_land_on_home_page() {
+//		String expectedUrl="https://dsportalapp.herokuapp.com/home";
+//		String actualUrl=DriverFactory.getDriver().getCurrentUrl();
+//		Assert.assertEquals(expectedUrl,actualUrl);
+	
+		Loggerload.info("User Registered Successfully");
+	
+	}
+	
+	
+
+
 	@Given("user is in the dsalgo register page")
 	public void user_is_in_the_dsalgo_register_page() {
+		//loginpage.Register_Click();
 		loginpage.Register_Click();
-		
+
+     System.out.println("Success in Registering");
 
 	}
 

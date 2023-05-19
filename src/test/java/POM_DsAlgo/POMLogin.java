@@ -26,16 +26,77 @@ public class POMLogin {
 	By LoginButton = By.xpath("//input[@value='Login']");
 	By Message =  By.xpath("//div[@class='alert alert-primary']");
 	By Error = By.xpath("//div[@class='alert alert-primary']");
+	By getStarted=By.xpath("//button[@class='btn']");
+	  By register1=By.xpath("//a[text()=' Register ']");
+	  By userName=By.xpath("//input[@name='username']");
+	  By password1=By.xpath("//input[@name='password1']");
+	  By password2=By.xpath("//input[@name='password2']");
+	  By register2= By.xpath("//input[@value='Register']");
+	  By login=By.xpath("//a[text()='Login ']");
+	  By homepage=By.xpath("//title[text()='NumpyNinja']");
          WebDriver driver;
-         
-    	 
-         
-	public POMLogin(WebDriver driver)
-	{
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
- public void loginPage()
+         public POMLogin(WebDriver driver)
+     	{
+     		this.driver = driver;
+     		PageFactory.initElements(driver, this);
+     	}
+
+         public void getStarted () throws Exception {
+  		   Thread.sleep(1000);
+
+  			driver.findElement(getStarted).click();	
+
+  		}	
+  	   
+  	 public void setUserName (String UserName) {
+
+  			driver.findElement(userName).sendKeys(UserName);	
+
+  		}	
+  	 
+  		
+  	 //in data driven it becomes for  password1 &2(String Password) & username
+  		
+  	 public void setPassword1 (String Password) {
+
+  			driver.findElement(password1).sendKeys(Password);	
+
+  		}
+  		
+  		public void setPassword2 (String Password) {
+
+  			driver.findElement(password2).sendKeys(Password);	
+
+  		}
+
+  		 public void clickRegister (){
+
+  			driver.findElement(register1).click();
+
+  		}
+  		  
+  		 public void clickRegister2 (){
+
+  				driver.findElement(register2).click();
+
+  			}
+  		 
+   
+  		 public void clickLogin (){
+
+  				driver.findElement(login).click();
+
+  			}
+  		 
+  		 
+  		 public void acceptAlert(){
+
+  				driver.switchTo().alert().accept();
+
+  			}
+   
+  	          
+	 public void loginPage()
  {
 	 driver.findElement(Start).click();
 	 

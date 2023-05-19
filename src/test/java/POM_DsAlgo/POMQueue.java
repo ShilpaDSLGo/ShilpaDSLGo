@@ -21,7 +21,7 @@ public class POMQueue {
 
 
  WebDriver driver;
-
+ By Sign0ut = By.linkText("Sign out");
 By Dropdown = By.xpath("//a[@class='nav-link dropdown-toggle']");
 
 By Queue = By.xpath("//a[text()='Queue']");
@@ -86,5 +86,10 @@ public void Click_Run()
 public String Check_Output()
 {
 	return driver.findElement(Output).getText();
+}
+public void signOut()
+{
+	 driver.findElement(Sign0ut).click();
+	 
 }
 }

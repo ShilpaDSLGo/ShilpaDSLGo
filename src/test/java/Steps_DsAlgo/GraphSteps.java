@@ -143,7 +143,7 @@ public void user_go_back_to_the_graph_module_page() throws InterruptedException 
 
 DriverFactory.getDriver().navigate().back();
 
-Thread.sleep(2000);
+Thread.sleep(1000);
 graph.Try_Here();
 
 
@@ -164,7 +164,7 @@ public void user_enters_the_valid_python_code_in_grapheditor_box(String sheetNam
 
 ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
-Thread.sleep(2000);
+Thread.sleep(1000);
 
 List<String> content=reader.getCellData(sheetName,0,rowNumber);
 

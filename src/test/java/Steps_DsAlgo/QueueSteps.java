@@ -110,7 +110,7 @@ List<String> content=reader.getCellData(sheetName,0,rowNumber);
 Thread.sleep(1000);
 queue.Editor(content);
 
-Thread.sleep(2000);
+Thread.sleep(1000);
 
 queue.Click_Run();
 
@@ -145,7 +145,7 @@ public void user_go_back_to_the_queue_module_page() throws InterruptedException 
 
 	DriverFactory.getDriver().navigate().back();
 
-	Thread.sleep(2000);
+	Thread.sleep(1000);
 	queue.Try_Here();
 
 }
@@ -156,13 +156,13 @@ public void user_enters_the_valid_python_code_in_editor_box(String sheetName1,In
 
 ExcelReader reader = new ExcelReader("C:\\Users\\shaun\\eclipse-workspace\\Ds_AlgoProject3\\src\\test\\resources\\excel.xlsx");
 
-Thread.sleep(2000);
+Thread.sleep(1000);
 
 List<String> content=reader.getCellData(sheetName1,0,rowNumber1);
 
 queue.Editor(content);
 
-Thread.sleep(2000);
+Thread.sleep(1000);
 
 queue.Click_Run();
 
@@ -179,8 +179,8 @@ String expectedText1 = getExpText5();
 Assert.assertEquals(actualText1, expectedText1);
 
 Loggerload.error("valid python code");
-
-
+DriverFactory.getDriver().navigate().back();
+queue.signOut();
 }
 
 }
