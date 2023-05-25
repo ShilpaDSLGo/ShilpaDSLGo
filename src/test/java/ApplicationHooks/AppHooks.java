@@ -29,7 +29,7 @@ import io.qameta.allure.Allure;
 
 public class AppHooks {
 	
-	public static DriverFactory driverFactory;
+public static DriverFactory driverFactory;
 public static WebDriver driver;
 
 public static ConfigReader configReader;

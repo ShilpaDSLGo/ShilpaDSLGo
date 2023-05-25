@@ -7,15 +7,10 @@ package Steps_DsAlgo;
 
 import java.io.IOException;
 import java.util.List;
-
 import org.openqa.selenium.Alert;
-
 import org.openqa.selenium.Keys;
-
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.interactions.Actions;
-
 import org.testng.Assert;
 import static Utilities.ConfigReader.getGraphUrl;
 import static Utilities.ConfigReader.getExpectedText2;
